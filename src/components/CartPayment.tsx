@@ -77,7 +77,7 @@ const CartPayment = () => {
             Proceed to Buy
           </button>
           <p className="text-xs mt-1 text-red-500 font-semibold animate-bounce">
-            Please login to continue
+            Please login to buy
           </p>
         </div>
       )}
