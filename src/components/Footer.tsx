@@ -1,10 +1,16 @@
 import Image from "next/image";
 import logo from "../images/logo.png";
+import { FaFacebookSquare } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="w-full h-20 bg-amazon_light text-gray-300 flex items-center justify-center gap-4">
-      <Image className="w-24" src={logo} alt="logo" />
+    <div className="w-full h-24 bg-amazon_light text-gray-300 flex items-center justify-center gap-4">
+      <div className="flex justify-center gap-6 mb-3">
+        <FaFacebookSquare />
+        <IoLogoInstagram />
+      </div>
+      <Image className="w-20" src={logo} alt="logo" />
       <p className="text-sm -mt-4">
         All rights reserved{" "}
         <a
@@ -12,7 +18,7 @@ const Footer = () => {
           href="https://prodevs.com.ar"
           target="_blank"
         >
-          @prodev.com
+          @prodevs.com.ar
         </a>
       </p>
     </div>

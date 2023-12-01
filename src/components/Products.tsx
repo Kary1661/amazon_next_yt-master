@@ -11,7 +11,7 @@ import Link from "next/link";
 const Products = ({ productData }: any) => {
   const dispatch = useDispatch();
   return (
-    <div className="w-full px-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+    <div className="w-fit px-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
       {productData.map(
         ({
           _id,

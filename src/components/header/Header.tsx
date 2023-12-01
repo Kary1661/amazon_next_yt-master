@@ -66,7 +66,7 @@ const Header = () => {
             <p className="text-white font-bold uppercase">USA</p>
           </div>
         </div>
-        {/* serchbar */}
+        {/* searchbar */}
         <div className="flex-1 h-10 hidden md:inline-flex items-center justify-between relative">
           <input
             onChange={handleSearch}
@@ -111,7 +111,7 @@ const Header = () => {
               ) : (
                 <div className="bg-gray-50 flex items-center justify-center py-10 rounded-lg shadow-lg">
                   <p className="text-xl font-semibold animate-bounce">
-                    Nothing is matches with your search keywords. Please try
+                    Nothing to match. Please try
                     again!
                   </p>
                 </div>
